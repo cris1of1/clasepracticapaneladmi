@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-content">
+        <h1 class="logo">Panel Admin</h1>
+        <div class="user-info">
+            <span class="user-name">Cris Cruz</span>
+            <div class="user-avatar">CC</div>
+        </div>
+    </div>
+</header>
+
+<div class="main-container">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+    <ul class="nav-list">
+        <li><a href="index.html" class="nav-link">🏠 Dashboard</a></li>
+        <li><a href="users.html" class="nav-link active">👥 Usuarios</a></li>
+        <li><a href="products.html" class="nav-link">📦 Productos</a></li>
+        <li><a href="sales.html" class="nav-link">📈 Ventas</a></li>
+        <li><a href="settings.html" class="nav-link">⚙️ Configuración</a></li>
+    </ul>
+</aside>
+
+<!-- CONTENIDO -->
+<main class="main-content">
+
+    <div class="content-header">
+        <h2 class="page-title">Usuarios</h2>
+        <p class="page-description">Gestión de usuarios</p>
+    </div>
+
+    <div class="users-container">
+
+        <!-- FORMULARIO -->
+        <div class="form-card">
+            <h3>Agregar Usuario</h3>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Rol">
+            <button>Agregar</button>
+        </div>
+
+        <!-- HISTORIAL -->
+        <div class="history-container">
+            <h3 class="section-title">Historial de usuarios</h3>
+
+            <div class="user-list">
+
+                <div class="user-card">
+                    <div class="avatar big">CC</div>
+                    <h3>Cris Cruz</h3>
+                    <p>Administrador</p>
+                </div>
+
+                <div class="user-card">
+                    <div class="avatar big">JD</div>
+                    <h3>Juan Díaz</h3>
+                    <p>Cliente</p>
+                </div>
+
+                <div class="user-card">
+                    <div class="avatar big">MR</div>
+                    <h3>María Ruiz</h3>
+                    <p>Cliente</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</main>
+</div>
+
+</body>
+</html>

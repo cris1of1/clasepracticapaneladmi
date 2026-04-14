@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel Admin</title>
+    <title>Productos</title>
 </head>
 <body>
 
-<!-- HEADER -->
 <header class="header">
     <div class="header-content">
         <h1 class="logo">Panel Admin</h1>
@@ -24,9 +23,9 @@
 <!-- SIDEBAR -->
 <aside class="sidebar">
     <ul class="nav-list">
-        <li><a href="index.html" class="nav-link active">🏠 Dashboard</a></li>
+        <li><a href="index.html" class="nav-link">🏠 Dashboard</a></li>
         <li><a href="users.html" class="nav-link">👥 Usuarios</a></li>
-        <li><a href="products.html" class="nav-link">📦 Productos</a></li>
+        <li><a href="products.html" class="nav-link active">📦 Productos</a></li>
         <li><a href="sales.html" class="nav-link">📈 Ventas</a></li>
         <li><a href="settings.html" class="nav-link">⚙️ Configuración</a></li>
     </ul>
@@ -36,26 +35,34 @@
 <main class="main-content">
 
     <div class="content-header">
-        <h2 class="page-title">Dashboard</h2>
-        <p class="page-description">Vista general del sistema</p>
+        <h2 class="page-title">Productos</h2>
+        <p class="page-description">Catálogo de productos</p>
     </div>
 
-    <!-- TARJETAS -->
-    <div class="stats-grid">
+    <div class="products-container">
 
-        <div class="stat-card">
-            <h3>900</h3>
-            <p>Usuarios</p>
+        <!-- PRODUCTO 1 -->
+        <div class="product-card">
+            <img src="img/sueter.jpg" alt="Producto">
+            <h3>Suéter Off White</h3>
+            <p>Precio: $40</p>
+            <p>Stock: 3</p>
         </div>
 
-        <div class="stat-card">
-            <h3>1000</h3>
-            <p>Productos</p>
+        <!-- PRODUCTO 2 -->
+        <div class="product-card">
+            <img src="img/pantalon.jpg" alt="Producto">
+            <h3>Pantalón Chrome Heart</h3>
+            <p>Precio: $60</p>
+            <p>Stock: 2</p>
         </div>
 
-        <div class="stat-card">
-            <h3>1500</h3>
-            <p>Ventas</p>
+        <!-- PRODUCTO 3 -->
+        <div class="product-card">
+            <img src="img/zapatos.jpg" alt="Producto">
+            <h3>Zapatos Nike</h3>
+            <p>Precio: $80</p>
+            <p>Stock: 5</p>
         </div>
 
     </div>
